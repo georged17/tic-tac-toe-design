@@ -52,7 +52,33 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+@media(min-width: 650px){
+    .Tictactoe{
+        width: 70vw;
+    }
+}
+@media(min-width: 1200px){
+    .Tictactoe{
+        width: 60vw;
+    }
+}
 
+@media(min-width: 1500px){
+    .Tictactoe{
+        width: 50vw;
+    }
+}
+
+@media(min-width: 1700px){
+    .Tictactoe{
+        width: 40vw;
+    }
+}
+@media(min-width: 1920px){
+    .Tictactoe{
+        width: 30vw;
+    }
+}
 .cell{
     display: flex;
     justify-content: center;
