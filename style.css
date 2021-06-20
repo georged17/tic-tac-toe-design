@@ -1,0 +1,27 @@
+@font-face{
+    font-family: 'Rowdies';
+    src: local('Rowdies Regular'),
+    url('./fonts/Rowdies-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: 'Rowdies';
+    src: local('Rowdies Light'),
+    url('./fonts/Rowdies-Light.woff') format('woff');
+    font-style: normal;
+    font-weight: lighter;
+    
+    }
+    
+
+@font-face {
+    font-family: 'Rowdies';
+    src: local('Rowdies Bold'),
+    url('./fonts/Rowdies-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: bold;
+   
+    }
