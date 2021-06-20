@@ -18,19 +18,78 @@ html{
     background-color: #ffd166;
 }
 body{
+    height: 100vh;
     font-size: 16px;
     font-family: 'Rowdies';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
 }
 
+.Title{
+    font-size: 3rem;
+    color: #118ab2;
+}
+
+
+/* Score Table Styles */
+.scoreTable{
+    font-size: 2rem;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+}
+.scoreX{color:#ef476f;} .scoreDiv{color: #118ab2;}  .scoreO{ color:#06d6a0;}
+
+
+
+
+/* TicTacToe Grid Styles */
 .Tictactoe{
-    border: 1px solid red;
+    width: 90vw;
     height: 60vh;
-    box-sizing: border-box;
-    margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .cell{
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border: 0.1em solid #118ab2;
 }
+     .one{ border-top: none; border-left: none;}
+     .two{ border-top: none;}
+     .three{ border-top: none; border-right: none; color:#06d6a0;}
+     .four{ border-left: none;}
+     .five{ color:#ef476f;}
+     .six{ border-right: none;}
+     .seven{ border-left: none; border-bottom: none; color:#06d6a0;}
+     .eight{ border-bottom: none;}
+     .nine{ border-bottom: none; border-right: none; color:#ef476f;}
+
+/* Buttons Styles */
+.gameButtons{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.game{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Rowdies';
+    border: 0;
+    border-radius: 0.25rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+
+}
+.New{color: #06d6a0; background-color: #ef476f;}
+
+.Reset{color: #ef476f; background-color: #06d6a0 ;}
