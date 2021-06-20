@@ -4,18 +4,7 @@
     url('./fonts/Rowdies-Regular.woff') format('woff');
     font-style: normal;
     font-weight: normal;
-
 }
-
-@font-face {
-    font-family: 'Rowdies';
-    src: local('Rowdies Light'),
-    url('./fonts/Rowdies-Light.woff') format('woff');
-    font-style: normal;
-    font-weight: lighter;
-    
-    }
-    
 
 @font-face {
     font-family: 'Rowdies';
@@ -25,3 +14,23 @@
     font-weight: bold;
    
     }
+html{
+    background-color: #ffd166;
+}
+body{
+    font-size: 16px;
+    font-family: 'Rowdies';
+}
+
+.Tictactoe{
+    border: 1px solid red;
+    height: 60vh;
+    box-sizing: border-box;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cell{
+    border: 1px solid red;
+}
