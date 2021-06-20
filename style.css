@@ -82,7 +82,7 @@ body{
     display: flex;
     justify-content: space-around;
 }
-     @media(min-width: 800px){ .gameButtons{justify-content:space-evenly;}}
+     @media(min-width: 800px){ .gameButtons {justify-content:space-evenly;}}
 
 .game{
     font-size: 1.5rem;
@@ -97,7 +97,8 @@ body{
     cursor: pointer;
 
 }
-.New{color: #06d6a0; background-color: #ef476f;}
+.New {color: #06d6a0; background-color: #ef476f;}
+   .New:hover {color: #ef476f; background-color:  #06d6a0;}
 
-.Reset{color: #ef476f; background-color: #06d6a0 ;}
-
+.Reset {color: #ef476f; background-color: #06d6a0;}
+    .Reset:hover {color: #06d6a0; background-color: #ef476f;}
